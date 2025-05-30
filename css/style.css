@@ -131,13 +131,19 @@ b :hover {
 .show {
     display: inline-block !important;
 }
- @media (max-width:767.98px) {
+.header_menu_burger{
+    color: #353434;
+    font-size: x-large;
+    display: none;    
+    cursor: pointer;
+} 
+ @media (max-width:991.98px) {
+    .header {
+        text-align: right;
+    }
      .header_menu_burger {
          display: inline-block;
-         margin-top: 50px;
-         margin-left: 280px;
-         /* float: right; */
-
+         margin-top: 22px;
      }
      .header_menu {
          display: none;
